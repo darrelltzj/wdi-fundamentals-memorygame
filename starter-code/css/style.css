@@ -1,0 +1,80 @@
+/* This is a multi-line
+comment. Add your CSS code
+from Unit 1 - 5 below  */
+
+nav{
+	background-color:#808080;
+}
+
+body{
+	font-family: monospace;
+	text-align: center;
+	margin:0 auto;
+	padding:20px;
+}
+
+footer{
+	text-align: center;
+	background-color: #808080;
+}
+
+h1{
+	font-size:50px;
+	font-weight: bold;
+	/*color:rgb(2, 132, 130);*/
+	color:rgba(0,0,180,1);
+}
+
+h2, h4{
+	/*color: #ffd700;*/
+	color:rgba(0,0,100,0.5);
+}
+
+h3{
+	color:white;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display:block;
+	content:"";
+	clear: both;
+	height:0;
+	font-size: 0;
+}
+
+.links{
+	background-color:#ffbf00;
+	color:white;
+	padding: 35px;
+	display:block;
+	float:left;
+}
+
+.links:hover{
+	background-color:#ee5f3c;
+}
+
+.instructions{
+	padding: 0em 20em 0em 20em;
+}
+
+.board{
+	height: 50%;
+	width: 50% auto;
+	display: inline-block;
+}
+.card{
+	height: 200px;
+	width: 150px;
+	border: 1px solid black;
+	/*background: yellow;*/
+	background: #ee5f3c;
+	border-radius: 10px;
+	float:left;
+	margin:8%;
+}
+
+.name{
+	color:rgba(255,0,0,1);
+}
