@@ -5,24 +5,21 @@ var cardTwo = "queen";
 var cardThree = "king";
 var cardFour = "king";
 
-if (cardTwo === cardFour) {
-	alert("You found a Match!");
+// if (cardTwo === cardFour) {
+// 	alert("You found a Match!");
+// }
+// else{
+// 	alert("Sorry, try again.");
+// }
+
+var gameBoard = document.getElementById("game-board");
+
+var createCards = function(){
+	for (var i=0; i<4; i++) {
+		var newCard = document.createElement('div');
+		newCard.className = 'card';
+		gameBoard.appendChild(newCard);
+	}
 }
-// else if (cardOne === cardTwo) {
 
-// }
-// else if (cardOne === cardThree) {
-
-// }
-// else if (cardOne === cardFour) {
-
-// }
-// else if (cardTwo === cardThree) {
-
-// }
-// else if (cardThree === cardFour) {
-
-// }
-else{
-	alert("Sorry, try again.");
-}
+createCards();
