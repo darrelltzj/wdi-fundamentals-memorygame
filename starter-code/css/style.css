@@ -69,7 +69,10 @@ h3{
 	width: 150px;
 	border: 1px solid black;
 	/*background: yellow;*/
-	background: #ee5f3c;
+	/*background: #ee5f3c;*/
+	background: url("backCard.jpg");
+	background-size: cover;
+	background-position: center;
 	border-radius: 10px;
 	float:left;
 	margin:8%;
