@@ -1,26 +1,4 @@
-// var cardOne = "queen";
-// var cardTwo = "queen";
-// var cardThree = "king";
-// var cardFour = "king";
-
-// if (cardTwo === cardFour) {
-// 	alert("You found a Match!");
-// }
-// else{
-// 	alert("Sorry, try again.");
-// }
-
 var gameBoard = document.getElementById("game-board");
-
-// var createCards = function(){
-// 	for (var i=0; i<4; i++) {
-// 		var newCard = document.createElement('div');
-// 		newCard.className = 'card';
-// 		gameBoard.appendChild(newCard);
-// 	}
-// }
-
-// createCards();
 
 var cards = ['queen','queen','king','king'];
 
@@ -43,10 +21,10 @@ var isTwoCards = function() {
 	// for now, just know it gives you access to the card the user clicked on
 	cardsInPlay.push(this.getAttribute('data-card'));
 	if(this.getAttribute('data-card') == 'king'){
-		this.innerHTML = "<img src = 'king.png' alt='King of Spades'>";
+		this.innerHTML = "<img src = 'images/king.png' alt='King of Spades'>";
 	}
 	else{
-		this.innerHTML = "<img src = 'queen.png' alt='Queen of Hearts'>";
+		this.innerHTML = "<img src = 'images/queen.png' alt='Queen of Hearts'>";
 	}
 
 	if (cardsInPlay.length === 2) {
